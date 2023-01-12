@@ -1,2 +1,2 @@
-# product-card
+# Product Card
 Projeto 2 Rocketseat - #boraCodar
