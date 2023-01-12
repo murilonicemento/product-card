@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500&family=Lato:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D9CDF7;
+  font-family: "Crimson Pro", sans-serif;
+  color: #271A45;
+}
+
+main {
+  width: 800px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main #btn-360 {
+  float: right;
+  position: absolute;
+  margin-left: -80px;
+}
+main #product-description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+main #product-description p {
+  font-family: "Lato", sans-serif;
+}
+main #product-description p:first-child {
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+main #product-description h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+main #product-description p:last-child {
+  font-size: 16px;
+  font-weight: 400;
+}
+main #product-description button {
+  width: 148px;
+  height: 32px;
+  margin-top: 20px;
+  background-color: #D9CDF7;
+  font-family: "Crimson Pro", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #271A45;
+  text-transform: uppercase;
+  border: 1px solid #271A45;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  outline: 0;
+}
+main #product-description button:hover {
+  background-color: #271A45;
+  color: #D9CDF7;
+}
+
+/*# sourceMappingURL=style.css.map */
