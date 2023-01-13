@@ -1,8 +1,8 @@
 # Product Card
 Projeto 2 Rocketseat - #boraCodar
-## Deploy da aplicação
 
-
+## Deploy da aplicaçã
+https://product-card-chi.vercel.app
 ## Tecnologias utilizadas
 + HTML5
 + CSS3
@@ -10,7 +10,10 @@ Projeto 2 Rocketseat - #boraCodar
 + JavaScript
 
 ## Estrutura do site
-
++ Imagem do Produto
++ Código do Produto
++ Valor do produto
++ Botão para Adicioná-lo à cesta
 
 ## Home Mobile
 

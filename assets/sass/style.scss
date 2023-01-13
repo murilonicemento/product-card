@@ -8,8 +8,9 @@ $color: #271A45;
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box  ;
+    box-sizing: border-box;
 }
+
 body {
     height: 100vh;
     display: flex;
@@ -33,27 +34,33 @@ main {
         position: absolute;
         margin-left: -80px;
     }
-    #product-description{
+
+    #product-description {
         display: flex;
         justify-content: center;
         flex-direction: column;
         gap: 12px;
+
         p {
             font-family: "Lato", sans-serif;
         }
+
         p:first-child {
             font-size: 13px;
             font-weight: 300;
             text-transform: uppercase;
         }
+
         h2 {
             font-size: 50px;
             font-weight: 500;
         }
+
         p:last-child {
             font-size: 16px;
             font-weight: 400;
         }
+
         button {
             width: 148px;
             height: 32px;
@@ -70,9 +77,10 @@ main {
             transition: .4s ease-in-out;
             outline: 0;
         }
+
         button:hover {
             background-color: $color;
-            color: $bg;  
+            color: $bg;
         }
     }
 }
